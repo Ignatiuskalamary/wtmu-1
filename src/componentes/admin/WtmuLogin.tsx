@@ -81,13 +81,15 @@ const WtmuLogin: React.FC = () => {
                   />
                 </div>
                 <h1 className="text-3xl font-bold">
-                  <span className="text-green-700"></span>Login
+                  <span className="text-green-700">Login</span>
                 </h1>
                 <p className="font-light text-gray-500">
-                  Please Enter your credentials to login{" "}
-                  <span className="text-green-700">
-                    <b>WTMU</b>
-                  </span>
+                  Please Enter your credentials to login
+                  <p>
+                    <span className="text-green-700">
+                      <b>World Tamil Music University</b>
+                    </span>
+                  </p>
                 </p>
               </div>
             </div>
