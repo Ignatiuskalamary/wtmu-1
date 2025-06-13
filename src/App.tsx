@@ -17,7 +17,7 @@ import WtmuNewuserList from "./pages/admin/WtmuNewuserList";
 import RegistrationForm from "./componentes/admin/RegistrationForm";
 
 const App = () => {
-  const isAuthenticated = true;
+  const isAuthenticated = false;
   return (
     <Routes>
       <Route path="/" element={<WtmuHome />} />

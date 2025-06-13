@@ -297,3 +297,38 @@ export const footer_data = [
     links: ["Facebook",'X' , "LinkedIn", "YouTube","Instagram"],
   },
 ];
+
+// types.ts
+export type UserType = {
+  id: number;
+  name: string;
+  value: string;
+  description?: string; // Optional field
+};
+
+export const userTypes: UserType[] = [
+  {
+    id: 1,
+    name: "Admin",
+    value: "admin",
+    description: ""
+  },
+  {
+    id: 2,
+    name: "Student",
+    value: "student",
+    description: ""
+  },
+  {
+    id: 3,
+    name: "Teacher",
+    value: "teacher",
+    description: ""
+  },
+  {
+    id: 4,
+    name: "Guest",
+    value: "guest",
+    description: ""
+  }
+];
